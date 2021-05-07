@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "cat.yoink.yoinkhack.mixin.mixins.mixin",
+  "refmap": "mixins.yoink.refmap.json",
+  "mixins": [
+    "CPacketPlayerMixin",
+    "EntityPlayerSPMixin",
+    "EntityRendererMixin",
+    "GameSettingsMixin",
+    "GuiIngameMenuMixin",
+    "GuiMainMenuMixin",
+    "GuiPlayerTabOverlayMixin",
+    "GuiScreenMixin",
+    "ItemRendererMixin",
+    "MinecraftMixin",
+    "NetworkManagerMixin",
+    "PlayerControllerMPMixin",
+    "RenderPlayerMixin",
+    "SPacketEntityVelocityMixin",
+    "SPacketExplosionMixin",
+    "SPacketPlayerPosLookMixin",
+    "TimerMixin"
+  ],
+  "client": [
+    "GuiDisconnectedMixin"
+  ]
+}
